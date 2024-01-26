@@ -6,7 +6,6 @@
     },
     "build": {
       "outputs": [
-        "dist/**",
         "build/**",
         "storybook-static/**"
       ],
