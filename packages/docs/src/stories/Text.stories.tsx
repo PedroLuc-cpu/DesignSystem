@@ -1,22 +1,18 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@ignite-ui/react'
+import { Text, TextProps } from '@ignite-ui/react'
 
 /**
  * Component global que serve para aplicar todas as configurações para todos components
  */
 export default {
-  title: 'Surfaces/Box',
-  component: Box,
+  title: 'Typography/Text',
+  component: Text,
   args: {
-    children: (
-      <>
-        <Text>Testando o elemento box</Text>
-      </>
-    ),
+    children: 'Example Text',
   },
-} as Meta<BoxProps>
+} as Meta<TextProps>
 
 /**
  * component de botão Primary todas as configurações de um botão Primary deve ser feito no mesmo
  */
-export const Primary: StoryObj<BoxProps> = {}
+export const Primary: StoryObj<TextProps> = {}
