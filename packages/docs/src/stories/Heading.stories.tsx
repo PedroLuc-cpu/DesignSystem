@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@ignite-ui/react'
+import { Heading, HeadingProps } from '@strategic-ui/react'
 
 /**
  * Component global que serve para aplicar todas as configurações para todos components

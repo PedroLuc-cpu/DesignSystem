@@ -1,5 +1,5 @@
 {
-  "name": "@iguite-ui/docs",
+  "name": "@strategic-ui/docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,9 +14,9 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@strategic-ui/eslint-config": "*",
+    "@strategic-ui/react": "*",
+    "@strategic-ui/tokens": "*",
     "@storybook/addon-a11y": "^7.6.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

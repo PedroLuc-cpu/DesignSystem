@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@ignite-ui/react'
+import { Avatar, AvatarProps } from '@strategic-ui/react'
 
 /**
  * Component global que serve para aplicar todas as configurações para todos components
