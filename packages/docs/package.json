@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build-storybook": "storybook build",
     "storybook": "storybook dev -p 6006"
   },
@@ -16,6 +17,7 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/react": "*",
     "@ignite-ui/tokens": "*",
+    "@storybook/addon-a11y": "^7.6.12",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
@@ -30,6 +32,7 @@
     "@storybook/manager-api": "^7.6.10",
     "@storybook/react": "^7.6.10",
     "@storybook/react-vite": "^7.6.10",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.10",
     "@storybook/theming": "^7.6.10",
     "@types/react": "^18.2.43",
