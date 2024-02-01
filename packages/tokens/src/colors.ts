@@ -16,4 +16,5 @@ export const colors = {
   strategic700: '#015F43',
   strategic900: '#00291D',
   destruction: '#F44336',
+  destruction400: '#FA6657'
 } as const
