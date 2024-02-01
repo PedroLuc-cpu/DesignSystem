@@ -19,10 +19,10 @@ export const CheckboxContainer = styled(Checkbox.Root, {
    * podemos usar data para estilizar como 'checked' ou 'unchecked'
    */
   '&[data-state="checked"]': {
-    backgroundColor: '$ignite300',
+    backgroundColor: '$strategic300',
   },
   '&:focus': {
-    border: '1px solid $ignite300',
+    border: '1px solid $strategic300',
   },
 })
 
