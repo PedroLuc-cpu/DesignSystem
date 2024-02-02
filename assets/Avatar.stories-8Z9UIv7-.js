@@ -1,0 +1,6 @@
+import{A as m}from"./index-nq1cuS43.js";import"./index-4g5l5LRQ.js";import"./_commonjsHelpers-4gQjN7DL.js";import"./extends-dGVwEr9R.js";import"./index-jmm5gWkb.js";import"./jsx-runtime-vNq4Oc-g.js";const f={title:"Data display/Avatar",component:m,args:{src:"https://github.com/pedroluc-cpu.png",alt:"Pedroluc CPU"},argTypes:{src:{control:{type:"text"}},alt:{control:{type:"text"}}},parameters:{docs:{description:{component:"Component global que serve para aplicar todas as configurações para todos components"}}}},r={},o={args:{src:void 0,alt:void 0}};var a,e,t,s,c;r.parameters={...r.parameters,docs:{...(a=r.parameters)==null?void 0:a.docs,source:{originalSource:"{}",...(t=(e=r.parameters)==null?void 0:e.docs)==null?void 0:t.source},description:{story:"component de botão Primary todas as configurações de um botão Primary deve ser feito no mesmo",...(c=(s=r.parameters)==null?void 0:s.docs)==null?void 0:c.description}}};var p,n,i;o.parameters={...o.parameters,docs:{...(p=o.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    src: undefined,
+    alt: undefined
+  }
+}`,...(i=(n=o.parameters)==null?void 0:n.docs)==null?void 0:i.source}}};const v=["Primary","WithFallback"];export{r as Primary,o as WithFallback,v as __namedExportsOrder,f as default};
